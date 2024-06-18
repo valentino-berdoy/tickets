@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*--- root ---*/
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     margin: 0;
     font-family: "work sans", sans-serif;
+    background-color: grey;
+
 }
 
 
+/*--- header ---*/
 
 nav{
     display: flex;
@@ -39,6 +43,47 @@ nav ul{
     height: 30px;
     border-radius: 25px;
     border: 1px #ffffff solid;
-    background-color: #000000aa;
+    background: none;
     color: #ffffff;
+}
+
+
+/*--- main ---*/
+
+
+.main-tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-tittle button{
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+    border: 1px #ffffff solid;
+    background-color: #000000aa;
+    background: #D7FC6E;
+    gap: 0 5px;
+}
+
+section{
+    margin: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.ticket-container{
+    border-radius: 5px ;
+    border: 1px #ffffff solid;
+    background-color: #00000066;
+}
+
+.circle{
+    background-color: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px ;
 }
