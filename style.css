@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "work sans", sans-serif;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000aa;
+    color: #ffffff;
+}
+
+nav h2{
+    width: 30%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    width: 30%;
+}
+
+.wallet-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.wallet-container button{
+    width: 160px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px #ffffff solid;
+    background-color: #000000aa;
+    color: #ffffff;
+}
