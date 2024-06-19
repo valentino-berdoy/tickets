@@ -5,10 +5,16 @@
 body{
     margin: 0;
     font-family: "work sans", sans-serif;
-    background-color: grey;
+    background-color: #1E1E1E;
+    box-sizing: border-box;
 
 }
-
+img{
+    width: 15%;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px ;
+}
 
 /*--- header ---*/
 
@@ -75,15 +81,47 @@ section{
     gap: 24px;
 }
 
-.ticket-container{
-    border-radius: 5px ;
-    border: 1px #ffffff solid;
-    background-color: #00000066;
+.info-ticket-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.circle{
-    background-color: none;
+.info-ticket-container p{
+    margin: 5px 0;
+}
+.info-ticket-container h3{
+    margin: 5px 0;
+}
+
+.ticket-container{
+    z-index: 2;
+    border-radius: 10px ;
+    border: 2px #ffffff solid;
+    background-color: #ffffff66;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.circle-left{
+    background-color: #1E1E1E;
     width: 100px;
     height: 100px;
-    border-radius: 50px ;
+    border-radius: 0 100px 100px 0 ;
+    border-right: 2px #ffffff solid;
+    border-top: 2px #ffffff solid;
+    border-bottom: 2px #ffffff solid;
+    margin: 40px 0;
+}
+
+.circle-right{
+    background-color: #1E1E1E;
+    width: 100px;
+    height: 100px;
+    border-radius: 120px 0 0 120px ;
+    border-left: 2px #ffffff solid;
+    border-top: 2px #ffffff solid;
+    border-bottom: 2px #ffffff solid;
+    margin: 40px 0;
 }
