@@ -70,7 +70,9 @@ nav ul{
 }
 
 section{
-    margin: 10px 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 10%;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -78,19 +80,22 @@ section{
 
 .info-ticket-container{
     width: 55%;
+    height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin: 20px 0;
 }
-
+/*
 .info-ticket-container p{
     margin: 5px 0;
 }
 .info-ticket-container h3{
     margin: 5px 0;
 }
-
+*/
 .ticket-container{
+    width: 50%;
     border-radius: 10px ;
     border: 2px #ffffff solid;
     background-color: #ffffff55;
@@ -103,7 +108,7 @@ section{
 
 .ticket-container img{
     width: 25%;
-    height: 180px;
+    height: 80%;
     margin: 30px 0;
     border-radius: 10px ;
 }
