@@ -11,6 +11,7 @@ body{
 }
 
 
+
 /*--- header ---*/
 
 nav{
@@ -56,6 +57,7 @@ nav ul{
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: #ffffff;
 
 }
 
@@ -86,14 +88,7 @@ section{
     justify-content: flex-start;
     margin: 20px 0;
 }
-/*
-.info-ticket-container p{
-    margin: 5px 0;
-}
-.info-ticket-container h3{
-    margin: 5px 0;
-}
-*/
+
 .ticket-container{
     width: 50%;
     border-radius: 10px ;
