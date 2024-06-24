@@ -58,7 +58,7 @@ nav ul{
     align-items: center;
     flex-direction: column;
     color: #ffffff;
-
+    margin-top: 40px;
 }
 
 .main-tittle p{
@@ -82,7 +82,7 @@ nav ul{
 section{
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
     margin: 40px 0;
 }
@@ -104,9 +104,9 @@ section{
 }
 
 .ticket-container{
-    width: 45%;
+    width: 40%;
     border-radius: 10px ;
-    border: 2px #ffffff solid;
+    border: 1px #ffffff solid;
     background-image: linear-gradient(to left, #ffffff50, #ffffff90);
     display: flex;
     align-items: center;
@@ -127,9 +127,9 @@ section{
     width: 5%;
     height: 70px;
     border-radius: 0 120px 120px 0 ;
-    border-right: 2px #ffffff solid;
-    border-top: 2px #ffffff solid;
-    border-bottom: 2px #ffffff solid;
+    border-right: 1px #ffffff solid;
+    border-top: 1px #ffffff solid;
+    border-bottom: 1px #ffffff solid;
     box-shadow: -2px 0 0 0 #080808;
 }
 
@@ -138,14 +138,24 @@ section{
     width: 5%;
     height: 70px;
     border-radius: 120px 0 0 120px ;
-    border-left: 2px #ffffff solid;
-    border-top: 2px #ffffff solid;
-    border-bottom: 2px #ffffff solid;
+    border-left: 1px #ffffff solid;
+    border-top: 1px #ffffff solid;
+    border-bottom: 1px #ffffff solid;
     box-shadow: 2px 0 0 0 #080808;
 }
-
-.order-ticket-container{
+/* --- footer --- */
+footer{
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+}
+
+footer ul{
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    width: 30%;
+    color: #ffffff;
+    text-align: center;
+    gap: 30px;
 }
