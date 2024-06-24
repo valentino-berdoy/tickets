@@ -6,10 +6,9 @@ body{
     margin: 0;
     font-family: "work sans", sans-serif;
     background-color: #070707;
+    background-image: linear-gradient(315deg, #D7FC6E66, #7905EDCC, #070707, #070707, #070707);
     box-sizing: border-box;
-
 }
-
 
 
 /*--- header ---*/
@@ -123,30 +122,32 @@ section{
 }
 
 .circle-left{
-    background-color: #080808;
+    background-color: #070707;
     width: 5%;
     height: 70px;
     border-radius: 0 120px 120px 0 ;
     border-right: 1px #ffffff solid;
     border-top: 1px #ffffff solid;
     border-bottom: 1px #ffffff solid;
-    box-shadow: -2px 0 0 0 #080808;
+    box-shadow: -2px 0 0 0 #070707;
 }
 
 .circle-right{
-    background-color: #080808;
+    background-color: #070707;
     width: 5%;
     height: 70px;
     border-radius: 120px 0 0 120px ;
     border-left: 1px #ffffff solid;
     border-top: 1px #ffffff solid;
     border-bottom: 1px #ffffff solid;
-    box-shadow: 2px 0 0 0 #080808;
+    box-shadow: 2px 0 0 0 #070707;
 }
 /* --- footer --- */
 footer{
+    margin-top: 550px;
     display: flex;
     justify-content: center;
+
 }
 
 footer ul{
